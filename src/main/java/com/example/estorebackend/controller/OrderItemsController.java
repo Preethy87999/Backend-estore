@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://ec2-54-175-53-136.compute-1.amazonaws.com:4200")
+@CrossOrigin(origins = "http://ec2-54-175-53-136.compute-1.amazonaws.com:5050")
 @RequestMapping("/orderitems")
 public class OrderItemsController {
 
